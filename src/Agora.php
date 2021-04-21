@@ -1,14 +1,14 @@
 <?php
 /**
- * User: qbhy
- * Date: 2019-01-22
- * Time: 21:55
+ * User: zoelabz
+ * Date: 21/04/2021
+ * Time: 10:54
  */
 
-namespace Qbhy\Agora;
+namespace Zoelabz\Agora;
 
 use Hanson\Foundation\Foundation;
-use Qbhy\Agora\Auth\SimpleTokenBuilder;
+use Zoelabz\Agora\Auth\SimpleTokenBuilder;
 
 /**
  * Class Agora
@@ -18,7 +18,7 @@ use Qbhy\Agora\Auth\SimpleTokenBuilder;
  * @property KickingRule        $kicking_rule
  * @property SimpleTokenBuilder $token
  *
- * @package Qbhy\Agora
+ * @package Zoelabz\Agora
  */
 class Agora extends Foundation
 {

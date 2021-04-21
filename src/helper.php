@@ -1,6 +1,6 @@
 <?php
 
-namespace Qbhy\Agora;
+namespace Zoelabz\Agora;
 
 const SDK_VERSION = '1';
 

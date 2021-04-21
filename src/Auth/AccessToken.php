@@ -1,8 +1,8 @@
 <?php
 
-namespace Qbhy\Agora\Auth;
+namespace Zoelabz\Agora\Auth;
 
-use function Qbhy\Agora\packString;
+use function Zoelabz\Agora\packString;
 
 class AccessToken
 {

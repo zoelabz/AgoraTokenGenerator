@@ -1,9 +1,9 @@
 <?php
 
-namespace Qbhy\Agora\Auth;
+namespace Zoelabz\Agora\Auth;
 
-use Qbhy\Agora\Agora;
-use Qbhy\Agora\Api;
+use Zoelabz\Agora\Agora;
+use Zoelabz\Agora\Api;
 
 class SimpleTokenBuilder extends Api
 {

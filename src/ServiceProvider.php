@@ -1,15 +1,15 @@
 <?php
 /**
- * User: qbhy
- * Date: 2019-01-22
- * Time: 22:32
+ * User: zoelabz
+ * Date: 21/04/2021
+ * Time: 10:54
  */
 
-namespace Qbhy\Agora;
+namespace Zoelabz\Agora;
 
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;
-use Qbhy\Agora\Auth\SimpleTokenBuilder;
+use Zoelabz\Agora\Auth\SimpleTokenBuilder;
 
 class ServiceProvider implements ServiceProviderInterface
 {

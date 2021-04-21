@@ -5,6 +5,9 @@ php-SDK
 * php >=7.1
 * ext-json >=1.0
 
+# Install With Composer
+-> composer require zoelabz/AgoraTokenGenerator
+
 ## 使用
 ```php
 require_once 'vendor/autoload.php';
@@ -17,11 +20,11 @@ $config = [
 
 $agora = new \Qbhy\Agora\Agora($config);
 
-var_dump($agora->project->all()); // 获取所有项目
-var_dump($agora->usage->get('2019-1-21','2019-1-22',['appid'])); // 获取用量
-var_dump($agora->kicking_rule->all()); // 获取所有规则
-var_dump($agora->token->buildToken('channel','uid')); // 生成token
+var_dump($agora->project->all()); // 
+var_dump($agora->usage->get('2021-1-21','2021-1-22',['appid'])); //
+var_dump($agora->kicking_rule->all()); //
+var_dump($agora->token->buildToken('channel','uid')); // token
 ```
 
-[96qbhy/agora](https://github.com/qbhy/agora)  
-96qbhy@gmail.com
+[zoelabz/AgoraTokenGenerator](https://github.com/zoelabz/AgoraTokenGenerator)  
+zoelabz@gmail.com

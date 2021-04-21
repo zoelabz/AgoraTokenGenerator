@@ -1,17 +1,16 @@
 <?php
 /**
- * User: qbhy
- * Date: 2019-01-22
- * Time: 23:35
+ * User: zoelabz
+ * Date: 21/04/2021
+ * Time: 10:54
  */
 
-namespace Qbhy\Agora;
+namespace Zoelabz\Agora;
 
 class KickingRule extends Api
 {
     /**
-     * 创建规则
-     *
+     * 
      * @param string $appid
      * @param array  $optional
      *
@@ -23,8 +22,7 @@ class KickingRule extends Api
     }
 
     /**
-     * 获取规则列表
-     *
+     * 
      * @param string $appid
      *
      * @return array
@@ -35,8 +33,7 @@ class KickingRule extends Api
     }
 
     /**
-     * 更新规则时间
-     *
+     * 
      * @param string $appid
      * @param string $id
      * @param string $time
@@ -49,7 +46,6 @@ class KickingRule extends Api
     }
 
     /**
-     * 删除规则
      *
      * @param string $appid
      * @param string $id

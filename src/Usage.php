@@ -1,11 +1,11 @@
 <?php
 /**
- * User: qbhy
- * Date: 2019-01-22
- * Time: 23:30
+ * User: zoelabz
+ * Date: 21/04/2021
+ * Time: 10:54
  */
 
-namespace Qbhy\Agora;
+namespace Zoelabz\Agora;
 
 class Usage extends Api
 {

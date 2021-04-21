@@ -1,17 +1,16 @@
 <?php
 /**
  * @link https://docs.agora.io/cn/Interactive%20Broadcast/dashboard_restful_live?platform=All_Platforms
- * User: qbhy
- * Date: 2019-01-22
- * Time: 23:01
+ * User: zoelabz
+ * Date: 21/04/2021
+ * Time: 10:54
  */
 
-namespace Qbhy\Agora;
+namespace Zoelabz\Agora;
 
 class Project extends Api
 {
     /**
-     * 获取所有项目
      *
      * @return array
      */
@@ -21,7 +20,6 @@ class Project extends Api
     }
 
     /**
-     * 获取单个项目
      *
      * @param string      $id
      * @param string|null $name
@@ -41,7 +39,6 @@ class Project extends Api
     }
 
     /**
-     * 创建项目
      *
      * @param string $name
      * @param bool   $enable_sign_key
@@ -54,7 +51,6 @@ class Project extends Api
     }
 
     /**
-     * 禁用或启用项目
      *
      * @param string $id
      * @param int    $status
@@ -67,7 +63,6 @@ class Project extends Api
     }
 
     /**
-     * 删除项目
      *
      * @param string $id
      *
@@ -79,7 +74,7 @@ class Project extends Api
     }
 
     /**
-     * 设置项目的录制项目服务器 IP
+     * IP
      *
      * @param string $id
      * @param string $recording_server
@@ -92,7 +87,7 @@ class Project extends Api
     }
 
     /**
-     * 禁用或启用项目 App Certificate
+     * App Certificate
      *
      * @param string $id
      * @param bool   $enable
@@ -105,7 +100,7 @@ class Project extends Api
     }
 
     /**
-     * 重置项目的 App Certificate
+     * App Certificate
      *
      * @param string $id
      *

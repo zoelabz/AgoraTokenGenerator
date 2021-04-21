@@ -1,12 +1,12 @@
 <?php
 /**
  * @link https://docs.agora.io/cn/Interactive%20Broadcast/dashboard_restful_live?platform=All_Platforms
- * User: qbhy
- * Date: 2019-01-22
- * Time: 22:06
+ * User: zoelabz
+ * Date: 21/04/2021
+ * Time: 10:54
  */
 
-namespace Qbhy\Agora;
+namespace Zoelabz\Agora;
 
 use GuzzleHttp\RequestOptions;
 use Hanson\Foundation\AbstractAPI;
