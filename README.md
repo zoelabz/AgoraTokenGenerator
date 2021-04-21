@@ -8,7 +8,6 @@ php-SDK
 # Install With Composer
 -> composer require zoelabz/AgoraTokenGenerator
 
-## Autoloading it in Your Project
 ```php
 require_once 'vendor/autoload.php';
 

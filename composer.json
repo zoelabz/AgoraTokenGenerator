@@ -1,6 +1,6 @@
 {
-    "name": "96qbhy/agora",
-    "description": "声网php-SDK",
+    "name": "zoelabz/AgoraTokenGenerator",
+    "description": "AgoraTokenGenerator",
     "require": {
         "hanson/foundation-sdk": "^4.0",
         "php": ">=7.1",
@@ -8,13 +8,13 @@
     },
     "authors": [
         {
-            "name": "qbhy",
-            "email": "572490755@qq.com"
+            "name": "Zoelabz",
+            "email": "zoelabz@gmail.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Qbhy\\Agora\\": "src"
+            "Zoelabz\\Agora\\": "src"
         },
         "files": [
             "src/helper.php"

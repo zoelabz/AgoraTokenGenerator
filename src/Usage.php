@@ -10,7 +10,6 @@ namespace Zoelabz\Agora;
 class Usage extends Api
 {
     /**
-     * 获取用量数据
      *
      * @param string $from_date
      * @param string $to_data
