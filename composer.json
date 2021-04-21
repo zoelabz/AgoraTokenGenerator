@@ -1,5 +1,5 @@
 {
-    "name": "zoelabz/AgoraTokenGenerator",
+    "name": "zoelabz/agora-token-generator",
     "description": "AgoraTokenGenerator",
     "require": {
         "hanson/foundation-sdk": "^4.0",
