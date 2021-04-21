@@ -1,5 +1,4 @@
 # Agora Token Generator
-php-SDK
 
 * composer
 * php >=7.1
