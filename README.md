@@ -1,4 +1,4 @@
-# agora
+# Agora Token Generator
 php-SDK
 
 * composer
@@ -8,7 +8,7 @@ php-SDK
 # Install With Composer
 -> composer require zoelabz/AgoraTokenGenerator
 
-## 使用
+## Autoloading it in Your Project
 ```php
 require_once 'vendor/autoload.php';
 
@@ -18,7 +18,7 @@ $config = [
     'secret' => 'your secret',
 ];
 
-$agora = new \Qbhy\Agora\Agora($config);
+$agora = new \Zoelabz\Agora\Agora($config);
 
 var_dump($agora->project->all()); // 
 var_dump($agora->usage->get('2021-1-21','2021-1-22',['appid'])); //
