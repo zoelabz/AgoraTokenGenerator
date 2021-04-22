@@ -5,7 +5,7 @@
 * ext-json >=1.0
 
 # Install With Composer
--> composer require zoelabz/AgoraTokenGenerator
+-> composer require zoelabz/agora-token-generator
 
 ```php
 require_once 'vendor/autoload.php';
@@ -24,5 +24,5 @@ var_dump($agora->kicking_rule->all()); //
 var_dump($agora->token->buildToken('channel','uid')); // token
 ```
 
-[zoelabz/AgoraTokenGenerator](https://github.com/zoelabz/AgoraTokenGenerator)  
+[zoelabz/agora-token-generator](https://github.com/zoelabz/agora-token-generator)  
 zoelabz@gmail.com
