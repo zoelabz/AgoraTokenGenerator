@@ -1,13 +1,15 @@
 {
     "name": "zoelabz/agora-token-generator",
     "description": "AgoraTokenGenerator",
+    "homepage" : "https://github.com/zoelabz/agora-token-generator",
+    "license": "MIT",
+
     "require": {
         "hanson/foundation-sdk": "^4.0",
         "php": ">=7.1",
         "ext-json": ">=1.0"
     },
     
-    "license": "MIT",
 
     "authors": [
         {
